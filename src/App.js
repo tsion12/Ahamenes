@@ -9,7 +9,7 @@ import NavBar from "./layout/NavBar";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen repeating-bg">
       <NavBar />
       <Hero />
       <RecentEvents />

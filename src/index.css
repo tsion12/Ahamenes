@@ -42,15 +42,29 @@
   }
 }
 .scrolling-container {
- display: flex;
- overflow-x: auto;
- scroll-snap-type: x mandatory;
- scroll-behavior: smooth;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
 .scrolling-container img {
- flex: 0 0 auto;
- width: 100%;
- height: auto;
- scroll-snap-align: start;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  scroll-snap-align: start;
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s infinite linear;
+  transform-origin: center;
 }

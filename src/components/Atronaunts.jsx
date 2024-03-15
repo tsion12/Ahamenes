@@ -9,7 +9,7 @@ const Atronaunts = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen repeating-bg flex flex-col items-center justify-start pt-4 text-gray-300">
+      className="w-full h-screen  flex flex-col items-center justify-start pt-4 text-gray-300">
       {" "}
       <div className=" w-full h-full flex items-center justify-center">
         {" "}

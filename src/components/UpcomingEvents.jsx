@@ -3,7 +3,7 @@ const UpcomingEvents = () => {
   return (
     <div
       name="team"
-      className="w-full h-screen repeating-bg flex flex-col items-center md:justify-center pt-4  text-gray-300">
+      className="w-full h-screen  flex flex-col items-center md:justify-center pt-4  text-gray-300">
       {" "}
       <h2 className="md:text-[48px] text-[20px]  md:mt-20 mt-10 font-bold tracking-widest">
         UPCOMING EVENTS

@@ -6,7 +6,7 @@ const HeldEvents = () => {
   return (
     <div
       name="gallery"
-      className="w-full h-screen repeating-bg flex flex-col items-center justify-start pt-4 text-gray-300">
+      className="w-full h-screen  flex flex-col items-center justify-start pt-4 text-gray-300">
       <h2 className="md:text-lg font-bold tracking-widest mt-16 text-center md:text-left">
         “Astronomy compels the soul to look upwards and leads us from this world
         to another”

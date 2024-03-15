@@ -13,7 +13,7 @@ const Socials = () => {
   return (
     <div
       name="club"
-      className="w-full h-screen pt-20 md:pt-4 repeating-bg flex flex-col items-center md:justify-center  text-gray-300">
+      className="w-full h-screen pt-20 md:pt-4 flex flex-col items-center md:justify-center  text-gray-300">
       {" "}
       <h2 className="md:text-[48px]  md:mt-20 mt-10 text-[20px] font-bold tracking-widest">
         Let’s check out our socials

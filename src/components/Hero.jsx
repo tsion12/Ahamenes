@@ -3,7 +3,7 @@ import HeroAstro from "../assets/images/heroAstronaunt.png";
 
 const Hero = () => {
   return (
-    <div name="home" className="w-full h-screen repeating-bg">
+    <div name="home" className="w-full h-screen ">
       {/* Container */}
       <div className=" w-full h-full flex items-center justify-center">
         <div className="relative">
