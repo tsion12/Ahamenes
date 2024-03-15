@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
 import Toys from "../assets/images/AstroToys.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -43,23 +42,6 @@ const HeldEvents = () => {
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
-          {/* <Carousel
-      autoPlay
-      axis="horizontal"
-      infiniteLoop
-      emulateTouch
-      centerMode
-      showThumbs>
-      <div>
-        <img src={Toys} alt="" className="w-40 " />
-      </div>
-      <div>
-        <img src={Toys} alt="" className="w-40 " />
-      </div>
-      <div>
-        <img src={Toys} alt="" className="w-40 " />
-      </div>
-    </Carousel> */}
         </div>
       </div>
     </div>

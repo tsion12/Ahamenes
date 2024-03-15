@@ -1,13 +1,4 @@
-import Socials1 from "../assets/images/socials1.png";
-import Socials8 from "../assets/images/socials8.png";
-import Socials2 from "../assets/images/socials2.png";
-import Socials3 from "../assets/images/socials3.png";
-import Socials4 from "../assets/images/socials4.png";
-import Socials5 from "../assets/images/socials5.png";
-import Socials6 from "../assets/images/socials6.png";
-import Socials7 from "../assets/images/socials7.png";
-import Socials9 from "../assets/images/socials9.png";
-
+import React from "react";
 const UpcomingEvents = () => {
   return (
     <div
