@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/svg/logoSpace.svg";
-import { FaBars, FaTimes, FaGithub, FaInstagram } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { CiLinkedin } from "react-icons/ci";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import { Link } from "react-scroll";
 
