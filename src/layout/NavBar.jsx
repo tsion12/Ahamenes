@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] z-50 flex justify-between items-center px-4 bg-transparent text-gray-300">
-      <div className="ml-16 mt-4">
+      <div className="md:ml-16 mt-4">
         <img src={Logo} alt="" className="w-20" />
       </div>
 

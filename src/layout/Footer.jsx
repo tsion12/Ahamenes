@@ -9,15 +9,11 @@ const Footer = () => {
   return (
     <div>
       {" "}
-      <footer className="bg-white repeating-bg w-full">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <footer className=" repeating-bg w-full">
+        <div className=" pt-[300px] md:pt-0 mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className=" md:flex md:justify-between">
-            <div className="relative mb-6 md:mb-0">
-              <img
-                src={Circle}
-                className="h-[200px] me-3"
-                alt="FlowBite Logo"
-              />{" "}
+            <div className="hidden md:block relative mb-6 md:mb-0">
+              <img src={Circle} className="h-[200px] me-3" alt=" Logo" />{" "}
               <div className="absolute top-20 left-20 text-white text-center flex items-center justify-center ">
                 Get in touch
               </div>
@@ -33,7 +29,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 gap-10 text-xs sm:gap-20 sm:grid-cols-2">
+              <div className="grid grid-cols-2 md:grid-cols-2 gap-10 text-xs sm:gap-20 sm:grid-cols-2">
                 <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Website Links

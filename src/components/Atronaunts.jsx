@@ -5,7 +5,6 @@ import MoonBlood from "../assets/images/moonBlood.png";
 import Floating from "../assets/images/FloatingAsto.png";
 import Toys from "../assets/images/AstroToys.png";
 import PurpleStars from "../assets/images/purpleStars.png";
-
 const Atronaunts = () => {
   return (
     <div
@@ -16,8 +15,12 @@ const Atronaunts = () => {
         {" "}
         <div className="relative">
           {" "}
-          <img src={AtronauntSpace} alt="" className="w-[700px]" />
-          <div className="absolute bottom-10  -left-60 bg-[#BBB6B6BF] text-white flex flex-col  space-y-2 p-5 rounded-sm  w-[450px] h-max">
+          <img
+            src={AtronauntSpace}
+            alt=""
+            className="hidden md:block w-[700px]"
+          />
+          <div className="md:absolute md:bottom-10  md:-left-60 bg-[#BBB6B6BF] text-white flex flex-col  space-y-2 p-5 rounded-sm w-[400px] md:w-[450px] h-max">
             <p>18/06/2023</p>
             <h3 className="text-3xl font-bold">Astronauts we know</h3>
             <p className="py-4 text-white font-bold">
@@ -33,12 +36,12 @@ const Atronaunts = () => {
           </div>
         </div>
       </div>
-      <div className="text-red-600 flex items-start space-x-4">
-        <img src={BlueStars} alt="" />
-        <img src={MoonBlood} alt="" />
-        <img src={Floating} alt="" />
-        <img src={PurpleStars} alt="" />
-        <img src={Toys} alt="" />
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <img src={BlueStars} alt="" className="w-full h-auto" />
+        <img src={MoonBlood} alt="" className="w-full h-auto" />
+        <img src={Floating} alt="" className="w-full h-auto" />
+        <img src={PurpleStars} alt="" className="w-full h-auto" />
+        <img src={Toys} alt="" className="w-full h-auto" />
       </div>
     </div>
   );

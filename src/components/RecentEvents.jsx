@@ -13,11 +13,11 @@ const RecentEvents = () => {
         {" "}
         <div className="relative">
           {" "}
-          <img src={sunsetMoon} alt="" className="w-[880px]" />
-          <div className="absolute -top-32 -left-44 ">
+          <img src={sunsetMoon} alt="" className="w-[880px] hidden md:block" />
+          <div className="hidden md:block absolute -top-40 -left-44 animate-rotate">
             <img src={Moon} alt="" className="w-[350px]" />
           </div>
-          <div className="absolute bottom-10  -right-60 bg-[#BBB6B6BF] flex flex-col  space-y-2 p-5 rounded-sm  w-[500px] h-[378px]">
+          <div className="md:absolute md:bottom-10  md:-right-60 bg-[#BBB6B6BF] flex flex-col  space-y-2 p-5 rounded-sm w-[400px] h-max md:w-[500px] md:h-[378px]">
             <p>18/06/2023</p>
             <h3 className="text-3xl">Talk on Dark Matter</h3>
             <p className="py-4">
@@ -35,7 +35,6 @@ const RecentEvents = () => {
             </div>
           </div>
         </div>
-       
       </div>
     </div>
   );

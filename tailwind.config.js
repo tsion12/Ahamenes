@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      animation: {
+        rotate: "rotate 15s linear infinite",
+      },
       fontFamily: {
         sans: ["Montserrat", "Helvetica", "Arial", "sans-serif"],
       },

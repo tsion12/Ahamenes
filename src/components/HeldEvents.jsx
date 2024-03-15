@@ -8,58 +8,58 @@ const HeldEvents = () => {
     <div
       name="gallery"
       className="w-full h-screen repeating-bg flex flex-col items-center justify-start pt-4 text-gray-300">
-      <h2 className="text-lg font-bold tracking-widest mt-16">
+      <h2 className="md:text-lg font-bold tracking-widest mt-16 text-center md:text-left">
         “Astronomy compels the soul to look upwards and leads us from this world
         to another”
       </h2>
-      <div className=" w-full h-full flex flex-col items-center justify-center gap-20">
-        <h1 className="text-[70px]">EVENTS WE HELD</h1>
-        <div className="h-80 w-[70%] flex items-center justify-around gap-2 bg-white rounded-lg">
-          <div className="rounded-md bg-white/5 p-1">
+      <div className="w-full h-full flex flex-col items-center justify-center gap-4 md:gap-20">
+        <h1 className="text-2xl md:text-5xl">EVENTS WE HELD</h1>
+        <div className="md:h-80  w-[90%] md:w-[70%]  flex flex-wrap md:flex-col md:overflow-hidden items-center justify-center gap-2 md:gap-2 h-max bg-white rounded-lg">
+          <div className="rounded-md bg-white bg-opacity-20 p-1">
             <img
               src={Toys}
               alt=""
-              className="w-[600px] h-60 rounded-xl overflow-hidden "
+              className="w-full h-full object-cover rounded-xl"
             />
           </div>
-          <div className="rounded-md bg-white/5 p-1">
+          <div className="rounded-md bg-white bg-opacity-20 p-1">
             <img
               src={Toys}
               alt=""
-              className="w-[600px] h-60 rounded-xl overflow-hidden "
+              className="w-full h-full object-cover rounded-xl"
             />
           </div>
-          <div className="rounded-md bg-white/5 p-1">
+          <div className="rounded-md bg-white bg-opacity-20 p-1">
             <img
               src={Toys}
               alt=""
-              className="w-[600px] h-60 rounded-xl overflow-hidden "
+              className="w-full h-full object-cover rounded-xl"
             />
           </div>
-          <div className="rounded-md bg-white/5 p-1">
+          <div className="rounded-md bg-white bg-opacity-20 p-1">
             <img
               src={Toys}
               alt=""
-              className="w-[600px] h-60 rounded-xl overflow-hidden "
+              className="w-full h-full object-cover rounded-xl"
             />
           </div>
           {/* <Carousel
-            autoPlay
-            axis="horizontal"
-            infiniteLoop
-            emulateTouch
-            centerMode
-            showThumbs>
-            <div>
-              <img src={Toys} alt="" className="w-40 " />
-            </div>
-            <div>
-              <img src={Toys} alt="" className="w-40 " />
-            </div>
-            <div>
-              <img src={Toys} alt="" className="w-40 " />
-            </div>
-          </Carousel> */}
+      autoPlay
+      axis="horizontal"
+      infiniteLoop
+      emulateTouch
+      centerMode
+      showThumbs>
+      <div>
+        <img src={Toys} alt="" className="w-40 " />
+      </div>
+      <div>
+        <img src={Toys} alt="" className="w-40 " />
+      </div>
+      <div>
+        <img src={Toys} alt="" className="w-40 " />
+      </div>
+    </Carousel> */}
         </div>
       </div>
     </div>
